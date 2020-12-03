@@ -27,8 +27,8 @@ def home():
         f"<a href=/api/v1.0/precipitation>Click HERE for precip data</a><br/>"
         f"<a href=/api/v1.0/stations>Click HERE for station IDs</a><br/>"
         f"<a href=/api/v1.0/tobs>Click HERE for temps from the most active station from the last year of data</a><br/>"
-        f"/api/v1.0/2010-01-01<br/>"
-        f"/api/v1.0/2016-08-23/2017-08-23<br/>"
+        f"<a href=/api/v1.0/2010-01-01>Click HERE for the min, max, and avg temps since 2010-01-01</a><br/>"
+        f"<a href=/api/v1.0/2016-08-23/2017-08-23>Click HERE for the min, max, and avg temps between 2016-08-23 and 2017-08-23</a><br/>"
     )
 
 @app.route("/api/v1.0/precipitation")
